@@ -1,0 +1,240 @@
+
+body {
+  background-image: url('../assets/avengers-wallpaper.jpg'); /* Reemplaza 'tu-imagen.jpg' con la ruta de tu imagen */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; 
+  background-position: center; /* Centra la imagen en el fondo */
+  color: #fff; /* Color de texto blanco */
+ background-attachment: fixed;
+}
+  header {
+    
+    color: #ada8a8; /* Rojo para el color del texto del encabezado */
+    text-align: center;
+    padding: 50px;
+   
+  }
+  
+  main {
+    padding: 20px;
+  }
+
+  #movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Otra propiedad de justificación que prefieras */
+    min-height: 500px; /* Establece una altura mínima para el contenedor */
+  }
+  .movie-cards{
+    margin-top: 20px
+  }
+
+  .movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px; /* Ajusta el ancho máximo de las tarjetas */
+    height: 600px; /* Ajusta la altura máxima de las tarjetas */
+    margin: 10px;
+    background-color: #2e04a0f1;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    color: #ffffff;
+  }
+  .movie-card a {
+    text-decoration: none;
+    font-size: 18px;
+   
+  }
+
+
+.movie-card img {
+  max-width: 50%;
+  height: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+  .movie-card:hover {
+    border-color: #0e12f0;
+    box-shadow: 0 0 10px 3px #fefeff; 
+    filter: brightness(1.5); 
+    transition: box-shadow 0.3s ease, filter 0.3s ease; 
+  }
+  .movie-cards h1 {
+   text-align: center;
+   color: #ffffff;
+   font-size: 35px;
+   margin-bottom: 40px;
+  }
+  nav {
+    background-color:  #0c2cbdaf; 
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none; /* Quita los estilos de lista (viñetas) */
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos para los elementos de la lista */
+  ul li {
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+    margin-right: 40px; /* Espaciado entre elementos de la lista */
+    
+  }
+  
+  /* Estilos para los enlaces */
+  ul li a {
+    text-decoration: none !important;
+    color: #ffffff; /* Color del texto, ajusta según tu diseño */
+    padding: 8px 15px; /* Espaciado interno */
+    border: 3px solid #ffffff; /* Borde alrededor de los enlaces */
+    border-radius: 3px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición de color de fondo al pasar el ratón */
+    
+  }
+  /* Cabiar color de fondo al pasar el ratón sobre los enlaces */
+  ul li a:hover {
+    border-color: #ffffff;
+    box-shadow: 0 0 10px 3px #ffffff; 
+    filter: brightness(1.5); 
+    transition: box-shadow 0.3s ease, filter 0.3s ease; 
+    color: #0d0ac7;
+    background-color: #ffffffa2; /* Color de fondo al pasar el ratón, ajusta según tu diseño */
+  }
+ .Logo{
+  text-align: left;
+ }
+ .header img {
+  width: 250px; /* ajusta el tamaño según sea necesario */
+  height: auto; /* esto asegura que la proporción se mantenga */
+  margin-right: 10px; /* ajusta el margen según sea necesario */
+  border-radius: 50%;
+}
+/* Cabiar color de fondo al pasar el ratón sobre los enlaces */
+#inputContainer {
+  background-color: rgba(255, 255, 255, 0.568); /* Fondo blanco con opacidad */
+  padding: 15px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  margin-bottom: 30px;
+}
+
+#searchInput {
+  flex: 1; /* Hace que el input ocupe el espacio restante */
+  padding: 5px; /* Espaciado interno */
+  border: none;
+  border-radius: 5px;
+
+}
+
+#searchBtn {
+  background-color: #1900ff; /* Rojo para el botón */
+  color: #fff; /* Texto blanco */
+  padding: 10px 15px; /* Espaciado interno */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transición de color de fondo al pasar el ratón */
+}
+
+#searchBtn:hover {
+  background-color: #000000d7; /* Cambia el color al pasar el ratón */
+}
+.show-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px; /* Ajusta el ancho máximo de las tarjetas */
+  height: 600px; /* Ajusta la altura máxima de las tarjetas */
+  margin: 10px;
+  background-color: #2e04a0ab;
+  padding: 15px;
+  box-sizing: border-box;
+  border: none;
+  color: #ffffff;
+}
+ /* Informacion de inicio*/
+
+ #inicioInfo {
+  text-align: center;
+}
+
+#inicioInfo h2,
+#inicioInfo p,
+#inicioInfo h3,
+#inicioInfo ul,
+#inicioInfo li {
+  text-align: left; /* Ajusta el texto alineado a la izquierda dentro del bloque centrado */
+  max-width: 1300px; /* Ajusta el ancho máximo para que no se extienda demasiado en pantallas grandes */
+  margin: 0 auto; /* Centra el bloque horizontalmente */
+  font-style: italic;
+  
+}
+
+#inicioInfo img {
+  display: block; /* Evita el espacio adicional debajo de la imagen */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  max-width: 100%; /* Hace que la imagen sea responsive */
+}
+#inicioInfo h2{
+  color: #0400f7;
+  text-align: center;
+}
+#inicioInfo h3 {
+  color: #0400f7;
+  text-align: center;
+}
+
+/* Estilos para pantallas más pequeñas (usando media queries) */
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.scrollUpBtn {
+  position: fixed;
+  z-index: 999;
+  bottom: 1vh;
+  right: calc(3rem );
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: rgb(36, 58, 255);
+  color: #000000;
+  transition: all 0.3s ease-out;
+}
+
+.scrollUpBtn:hover {
+  background-color:black ;
+  color: rgb(35, 13, 235) ;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+footer {
+  display: flex; /* Utilizar Flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.h2Container{
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}

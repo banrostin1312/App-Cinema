@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/createMovieForm.css">
+ 
+    <title>Load Movie Data</title>
+</head>
+<body>
+
+        <section id="load-Movie-Form">
+           <a href="../index.html"> <button id="back">Back</button></a>
+            <form id="movieForm" >
+                <h4>Add Movie Data</h4>
+                <label for="title">Title:</label>
+                <input class="controls" type="text" id="title" name="title" placeholder="insert the title of the movie" required>
+                <br><br>
+                <label for="year">Year:</label>
+                <input class="controls" type="number" id="year" name="year" min="1900" max="2024" placeholder="enter the year of the movie" required>
+                <br><br>
+                <label for="director">Director:</label>
+                <input class="controls" type="text" id="director" name="director" placeholder="enter the movie director" required>
+                <br><br>
+                <label for="duration">Duration:</label>
+                <input class="controls" type="text" id="duration" name="duration" placeholder="enter the movie duration">
+                <br><br>
+                <label for="genre">Genre:</label>
+                <input class="controls" type="text" id="genre" name="genre" placeholder="enter the movie gender" required>
+                <br><br>
+                <label for="rate">Rate:</label>
+                <input class="controls" type="number" id="rate" name="rate" min="0" max="10" step="0.1" placeholder="enter the movie rate" required>
+                <br><br>
+                <label for="poster">Poster:</label>
+                <input class="controls" type="url" id="poster" name="poster" placeholder="enter the poster(img) URL">
+                <br><br>
+               <button id="addmovie">Add Movie</button>
+               <div id="messageConfirm"></div>
+               <div id="messageError"></div>
+               
+
+            </form>
+        </section>
+        <script src="/PM2-banrostin1312/front/scripts/loadMovieData.js" type="module"></script>
+     
+        
+</body>
+</html>

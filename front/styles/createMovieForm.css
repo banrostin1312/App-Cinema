@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('/PM2-banrostin1312/front/assets/Lofi.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+h4{
+    text-align: center;
+}
+  
+#load-Movie-Form{
+    width: 500px;
+    height: 820px;
+    background-color: rgba(35, 206, 29, 0.356);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+ 
+}
+
+.controls{
+    background-color: antiquewhite;
+        width: 100%; /* Establece el ancho al 100% del contenedor padre */
+       
+}
+
+
+
+#addmovie {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#addmovie:hover{
+    background-color:  rgba(49, 245, 10, 0.322);
+}
+#back{
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+#back:hover{
+    background-color:  rgba(49, 245, 10, 0.322);
+}
+
+#messageConfirm{
+    color: #22df11;
+}
+#messageError{
+    color: red;
+}

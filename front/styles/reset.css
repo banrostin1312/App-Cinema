@@ -1,0 +1,183 @@
+/* reset.css */
+
+/* Box-sizing border-box para todos los elementos */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Eliminar márgenes y rellenos predeterminados */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+figure,
+figcaption,
+blockquote,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+button,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+/* Establecer estilos básicos */
+body {
+  line-height: 1.6;
+}
+
+/* Establecer fuentes legibles en todos los tamaños de pantalla */
+@media screen and (min-width: 400px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Establecer estilos de encabezados */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Establecer estilos de enlaces */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Eliminar estilos de lista predeterminados */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Establecer márgenes y espaciados de forma coherente */
+img,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+
+/* Eliminar decoración de botones y inputs */
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+/* Normalizar estilos para elementos de formulario */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* Asegurar que los elementos con posición relativa se posicionen correctamente */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Normalizar estilos para detalles/summary (usados en detalles de contenido plegable) */
+details {
+  display: block;
+}
+
+/* Eliminar bordes en elementos de formulario en Firefox */
+button,
+input,
+select,
+textarea {
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+/* Restablecer la propiedad de texto de marca de progreso en IE */
+progress {
+  vertical-align: baseline;
+}
+
+/* Normalizar tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Normalizar estilos para la tabla en IE */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Eliminar espacios en blanco entre celdas de tabla en IE */
+td,
+th {
+  padding: 0;
+}
+
+/* Normalizar estilos para elementos de formulario en IE */
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+
+/* Eliminar estilo predeterminado en controles de formulario en Safari */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+/* Establecer reglas de bordes comunes */
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+/* Restablecer estilos de lista en Safari/Chrome/iOS */
+ul, ol {
+  padding-left: 0;
+}

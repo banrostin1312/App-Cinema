@@ -1,0 +1,127 @@
+body {
+    background-image: url('../assets/avengers-wallpaper.jpg'); /* Reemplaza 'tu-imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; 
+    background-position: center; /* Centra la imagen en el fondo */
+    color: #fff; /* Color de texto blanco */
+   background-attachment: fixed;
+  }
+  #inputContainer {
+    background-color: rgba(255, 255, 255, 0.568); /* Fondo blanco con opacidad */
+    padding: 5px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    margin-bottom: 30px;
+  }
+  
+  #searchInput {
+    flex: 1; /* Hace que el input ocupe el espacio restante */
+    padding: 30px; /* Espaciado interno */
+    border: none;
+    
+  background-color: transparent;
+  }
+  
+  #searchInput:focus {
+    outline: none; /* Eliminar el borde de enfoque predeterminado */
+  }
+  #searchBtn {
+    background-color: #1900ff; /* Rojo para el botón */
+    color: #fff; /* Texto blanco */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición de color de fondo al pasar el ratón */
+  }
+  
+  #searchBtn:hover {
+    background-color: #000000d7; /* Cambia el color al pasar el ratón */
+  }
+
+  #movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Otra propiedad de justificación que prefieras */
+    min-height: 500px; /* Establece una altura mínima para el contenedor */
+  }
+  .movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px; /* Ajusta el ancho máximo de las tarjetas */
+    height: 600px; /* Ajusta la altura máxima de las tarjetas */
+    margin: 10px;
+    background-color: #2e04a0f1;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    color: #ffffff;
+    
+  }
+  .movie-card a {
+    text-decoration: none;
+    font-size: 18px;
+   
+  }
+
+
+.movie-card img {
+  max-width: 50%;
+  height: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+  .movie-card:hover {
+    border-color: #0e12f0;
+    box-shadow: 0 0 10px 3px #fefeff; 
+    filter: brightness(1.5); 
+    transition: box-shadow 0.3s ease, filter 0.3s ease; 
+  }
+
+  #inicio-Btn {
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    background-color: #1900ff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    text-decoration: none; /* Quitar el subrayado del enlace */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  
+  #inicio-Btn:hover {
+    background-color: #0000d7; /* Cambia el color de fondo al pasar el ratón */
+  }
+  
+  .scrollUpBtn {
+    position: fixed;
+    z-index: 999;
+    bottom: 1vh;
+    right: calc(3rem );
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(36, 58, 255);
+    color: #000000;
+    transition: all 0.3s ease-out;
+  }
+  
+  .scrollUpBtn:hover {
+    background-color:black ;
+    color: rgb(35, 13, 235) ;
+  }
+  
+  .hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .recommended{
+    text-align: center;
+  }
+
