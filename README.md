@@ -9,3 +9,8 @@ App-Cinema es una aplicación web desarrollada en [HTML,CSS,JS] que permite a lo
 - **Detalles de películas**: Accede a la sinopsis, reparto, tráiler y más información relevante sobre cada película.
 - **Interfaz amigable**: Un diseño limpio y moderno que ofrece una experiencia de usuario fluida y atractiva.
 - **Responsive**: Optimizada para funcionar en dispositivos móviles, tabletas y computadoras de escritorio.
+
+### Tecnologías utilizadas:
+- **HTML**: Estructura y contenido de las páginas web.
+- **CSS**: Estilos y diseño visual para crear una interfaz atractiva.
+- **JavaScript**: Lógica y funcionalidades interactivas del lado del cliente.
