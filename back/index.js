@@ -9,3 +9,4 @@ dbCon().then(
 })    
 }
 )
+module.exports = app;
