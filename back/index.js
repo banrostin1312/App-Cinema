@@ -1,5 +1,5 @@
-const app =  require("./back/server");
-const dbCon = require ("./back/src/config/dbCon");
+const app =  require("./server");
+const dbCon = require ("./src/config/dbCon");
 const port = process.env.PORT || 3000;
 
 dbCon().then(
