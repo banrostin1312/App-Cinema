@@ -1,7 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
-const router = require('../back/src/routes');
-const movieServices = require("../back/src/services/movieServices");
+const router = require('./src/routes');
+const movieServices = require("./src/services/movieServices");
 const frontApi = process.env.FRONTEND_URL || "*";
 const app = express();
 app.use(express.json());
