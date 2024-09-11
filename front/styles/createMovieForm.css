@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('/PM2-banrostin1312/front/assets/Lofi.png');
+    background-image: url('../assets/Lofi.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
