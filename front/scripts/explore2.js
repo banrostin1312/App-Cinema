@@ -9,7 +9,7 @@ const inputBtn = d.getElementById('searchBtn');
 const searchInput = d.getElementById('searchInput');
 
 document.getElementById("inicio-Btn").addEventListener("click", function() {
-  window.location.href = "/PM2-banrostin1312/front/index.html"; // Redirige a la URL especificada
+  window.location.href = "../index.html"; // Redirige a la URL especificada
 });
 
 d.addEventListener("DOMContentLoaded",()=>{
